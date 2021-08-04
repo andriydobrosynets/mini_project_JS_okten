@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+
+}
+.user-list{
+    background: yellow;
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom:5px solid rgb(75, 139, 224);
+
+}
+.box-h1-users{
+    background: blue;
+    margin: 0;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+.users-box{
+    background: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+
+.box-h4{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgb(75, 139, 224);
+    border-radius: 7px;
+    margin-left: 15px;
+    color: dark;
+    column-gap:15px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: xx-large;
+
+}
+.button-users{
+    background: #28c9de;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+
+}
+#user-info{
+    background: yellow;
+    text-align: center;
+    font-size: medium;
+    padding-bottom: 10px;
+
+}
+.box-post{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border:1px solid rgb(75, 139, 224);
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+.id-user{
+    margin: 0;
+    padding-top: 10px;
+}
+.button-user-details{
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    background: #28c9de;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.button-users-post{
+    background: #28c9de;
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    margin-left: 10px;
+
+
+
+}
+#posts{
+    background: yellow;
+    text-align: center;
+    font-size: medium;
+
+}
+.id-post{
+    margin: 0;
+    padding-top: 10px;
+}
+.comments-box{
+    background: yellow;
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+p{
+    margin-top: 20px;
+    border:1px solid rgb(75, 139, 224);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
