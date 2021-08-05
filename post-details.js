@@ -1,7 +1,7 @@
 const postDiv = document.getElementById('posts')
-const JOSINUSer = new URL(location).searchParams.get('post');
+const JOSINUSer = new URL(location).searchParams.get('post')
 
-const post = JSON.parse(JOSINUSer);
+const post = JSON.parse(JOSINUSer)
 
 postDiv.innerHTML= `<h1 class="id-post" >userId- ${post.userId}</h1>
 <h1>id- ${post.id}</h1>
@@ -10,9 +10,9 @@ postDiv.innerHTML= `<h1 class="id-post" >userId- ${post.userId}</h1>
 
 
 let Div= document.createElement('div')
-let detailsBtn = document.createElement('button');
+let detailsBtn = document.createElement('button')
 detailsBtn.classList.add('button-user-details')
-detailsBtn.innerHTML = `<h1>COMMENT OF CURRENT POST</h1>`;
+detailsBtn.innerHTML = `<h1>COMMENT OF CURRENT POST</h1>`
 Div.appendChild(detailsBtn)
 detailsBtn.onclick = function () {
     fetch(`https://jsonplaceholder.typicode.com/posts/${post.id}/comments`)
@@ -28,4 +28,4 @@ detailsBtn.onclick = function () {
             }
         })
 }
-postDiv.appendChild(detailsBtn);
+postDiv.appendChild(detailsBtn)
